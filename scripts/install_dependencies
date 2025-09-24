@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+echo "Running install_dependencies on Ubuntu..."
+
+apt-get update -y
+apt-get install -y nginx curl
