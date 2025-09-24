@@ -10,11 +10,11 @@ hooks:
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
-    - location: before_script.sh
+    - location: scripts/before_script.sh   # Make sure the path is correct
       timeout: 300
       runas: root
 
   ApplicationStop:
-    - location: after_script.sh
+    - location: scripts/after_script.sh
       timeout: 300
       runas: root
