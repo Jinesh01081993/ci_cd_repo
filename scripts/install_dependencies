@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
-
 echo "Running install_dependencies on Ubuntu..."
 
 apt-get update -y
